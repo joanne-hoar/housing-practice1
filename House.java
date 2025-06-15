@@ -18,7 +18,8 @@ public class House {
      */
     public void build(double floorArea) {
         this.floorArea = floorArea;
-        System.out.println(floorArea);
+        // Print floor area rounded to nearest unit
+        System.out.println(Math.round(floorArea));
     }
 
     /**
@@ -27,6 +28,7 @@ public class House {
      */
     public void sell() {
         this.salePrice = 150 * this.floorArea;
-        System.out.println(this.salePrice);
+        // Print sale price rounded to whole dollar
+        System.out.println(Math.round(this.salePrice));
     }
 }

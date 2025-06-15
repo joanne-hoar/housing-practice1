@@ -31,6 +31,6 @@ public class Housing {
             house.sell();
         }
 
-        System.out.println("Total floor area of all houses: " + totalFloorArea);
+        System.out.println("Total floor area of all houses: " + Math.round(totalFloorArea));
     }
 }
